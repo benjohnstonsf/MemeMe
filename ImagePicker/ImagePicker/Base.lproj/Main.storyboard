@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="K8O-XV-5uu">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -71,20 +72,20 @@
                                 <exclude reference="MUT-ja-DIM"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="Gmt-re-eoy"/>
-                                <exclude reference="dvz-FA-uJQ"/>
-                                <exclude reference="fpP-w3-3v9"/>
+                                <exclude reference="1s4-dt-CKx"/>
+                                <exclude reference="GF8-QD-Vqc"/>
+                                <exclude reference="Ueh-9y-tuq"/>
                                 <exclude reference="Eie-dJ-8l1"/>
                                 <exclude reference="OGW-ub-v4O"/>
                                 <exclude reference="sbi-ZX-6SD"/>
-                                <exclude reference="1s4-dt-CKx"/>
-                                <exclude reference="GF8-QD-Vqc"/>
                                 <exclude reference="D0k-hT-FDG"/>
                                 <exclude reference="IB5-TT-YAo"/>
                                 <exclude reference="PPT-Ot-2Dg"/>
                                 <exclude reference="RZA-iF-YBH"/>
                                 <exclude reference="Uv3-6N-gEZ"/>
-                                <exclude reference="Ueh-9y-tuq"/>
+                                <exclude reference="Gmt-re-eoy"/>
+                                <exclude reference="dvz-FA-uJQ"/>
+                                <exclude reference="fpP-w3-3v9"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -95,20 +96,20 @@
                                 <include reference="MUT-ja-DIM"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Gmt-re-eoy"/>
-                                <include reference="dvz-FA-uJQ"/>
-                                <include reference="fpP-w3-3v9"/>
+                                <include reference="1s4-dt-CKx"/>
+                                <include reference="GF8-QD-Vqc"/>
+                                <include reference="Ueh-9y-tuq"/>
                                 <include reference="Eie-dJ-8l1"/>
                                 <include reference="OGW-ub-v4O"/>
                                 <include reference="sbi-ZX-6SD"/>
-                                <include reference="1s4-dt-CKx"/>
-                                <include reference="GF8-QD-Vqc"/>
                                 <include reference="D0k-hT-FDG"/>
                                 <include reference="IB5-TT-YAo"/>
                                 <include reference="PPT-Ot-2Dg"/>
                                 <include reference="RZA-iF-YBH"/>
                                 <include reference="Uv3-6N-gEZ"/>
-                                <include reference="Ueh-9y-tuq"/>
+                                <include reference="Gmt-re-eoy"/>
+                                <include reference="dvz-FA-uJQ"/>
+                                <include reference="fpP-w3-3v9"/>
                             </mask>
                         </variation>
                     </view>
