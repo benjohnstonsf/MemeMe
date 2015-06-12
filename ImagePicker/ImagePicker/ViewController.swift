@@ -22,6 +22,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
   @IBOutlet weak var cameraButton: UIBarButtonItem!
   @IBOutlet weak var top: UITextField!
   @IBOutlet weak var bottom: UITextField!
+  @IBOutlet weak var toolBar: UIToolbar!
   
   
   override func viewDidLoad() {
@@ -30,6 +31,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     bottom.defaultTextAttributes = memeTextAttributes
     top.delegate = self
     bottom.delegate = self
+      
   }
   
   override func viewWillAppear(animated: Bool) {
@@ -103,6 +105,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
   func generateMemedImage() -> UIImage {
     
     // TODO: Hide toolbar and navbar
+    self.toolBar.hidden = true
     
     // Render view to an image
     UIGraphicsBeginImageContext(self.view.frame.size)
@@ -111,6 +114,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     let memedImage : UIImage =
     UIGraphicsGetImageFromCurrentImageContext()
     UIGraphicsEndImageContext()
+    self.toolBar.hidden = false
     
     // TODO:  Show toolbar and navbar
     
