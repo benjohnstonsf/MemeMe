@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="K8O-XV-5uu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="UNs-Fh-z2S">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
@@ -76,7 +76,7 @@
             </objects>
             <point key="canvasLocation" x="-39" y="699"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Table-->
         <scene sceneID="NF1-4Q-BNM">
             <objects>
                 <tableViewController id="g1i-oe-3Fn" customClass="tableView" customModule="ImagePicker" customModuleProvider="target" sceneMemberID="viewController">
@@ -84,7 +84,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="pzg-W0-yhl" customClass="memeCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="memeCell" id="pzg-W0-yhl">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pzg-W0-yhl" id="OiZ-NG-yCE">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -96,7 +96,7 @@
                             <outlet property="delegate" destination="g1i-oe-3Fn" id="szr-Tw-nOM"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="Qtj-Ov-x0r"/>
+                    <navigationItem key="navigationItem" title="Table" id="Qtj-Ov-x0r"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DUR-Ej-0qn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
